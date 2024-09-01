@@ -1,0 +1,180 @@
+@charset "UTF-8";
+
+/* pc médio*/
+@media screen and (max-width:1000px) {
+    div.pro-outros {
+        margin-top: 20px;
+        background-color: rgba(197, 191, 191, 0.267);
+        display: block;
+        padding: 20px;
+        border-radius: 20px;
+    }
+    
+    div.pro-outros:hover {
+        transition-duration: 1s;
+        padding: 30px;
+    }
+    
+    img.img-outros {
+       width: 100%;
+       margin: auto;
+        display: block;
+       border-radius: 20px;
+       height: 300px;
+    } 
+
+    div.descricao-pro {
+        margin-top: 20px;
+        display: block;
+        padding: 20px;
+        background-color: rgb(168, 159, 159);
+        border-radius: 10px;
+    }
+}
+
+/*tablet*/
+@media screen and (max-width:800px) {
+
+    header > h1 {
+        width: 345px;
+        font-size: 80px;
+        height: 325px;
+    }
+
+    header > h2 {
+        display: none;
+    }
+
+    span#burguer {
+        background-color: rgb(49, 49, 49);
+        position: absolute;
+        top: 1%;
+        left: 90%;
+        display:inline-block;
+        border-radius: 10px;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        cursor: pointer;
+    }
+    
+    span#burguer:hover {
+        background-color: white;
+        color: black;
+    }
+
+    nav a {
+        display: block;
+        border: 1px solid rgb(184, 177, 177);
+    }
+
+    nav {
+        background-color: white;
+        width: 220px;
+        display: block;
+    }
+
+    
+    div.pro-outros {
+        margin-top: 20px;
+        background-color: rgba(197, 191, 191, 0.267);
+        display: block;
+        padding: 20px;
+        border-radius: 20px;
+    }
+    
+    div.pro-outros:hover {
+        transition-duration: 1s;
+        padding: 30px;
+    }
+    
+    img.img-outros {
+       width: 400px;
+       margin: auto;
+       display: block;
+       border-radius: 20px;
+       height: 300px;
+    } 
+    
+    div.descricao-pro {
+        margin-top: 20px;
+        display: block;
+        padding: 20px;
+        background-color: rgb(168, 159, 159);
+        border-radius: 10px;
+    }
+}
+
+/*celulares*/
+@media screen and (max-width:500px) {
+
+    header > h1 {
+        width: 375px;
+        font-size: 70px;
+    }
+
+    header > h2 {
+        display: none;
+    }
+
+    span#burguer {
+        background-color: rgb(49, 49, 49);
+        position: absolute;
+        top: 1%;
+        left: 90%;
+        display:inline-block;
+        border-radius: 10px;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        cursor: pointer;
+    }
+    
+    span#burguer:hover {
+        background-color: white;
+        color: black;
+    }
+
+    nav a {
+        display: block;
+        border: 1px solid rgb(184, 177, 177);
+    }
+
+    nav {
+        background-color: white;
+        width: 200px;
+        padding: 5px;
+        display: block;
+    }
+
+    
+    div.pro-outros {
+        margin-top: 20px;
+        background-color: rgba(197, 191, 191, 0.267);
+        display: block;
+        padding: 20px;
+        border-radius: 20px;
+    }
+    
+    div.pro-outros:hover {
+        transition-duration: 1s;
+        padding: 30px;
+    }
+    
+    img.img-outros {
+       width: 300px;
+       margin: auto;
+        display: block;
+       border-radius: 20px;
+       height: 300px;
+    } /*arrumar imagem vinho*/
+    
+    div.descricao-pro {
+
+        margin-top: 20px;
+        display: block;
+        padding: 20px;
+        background-color: rgb(168, 159, 159);
+        border-radius: 10px;
+    }
+}

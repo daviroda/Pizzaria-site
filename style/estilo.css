@@ -1,0 +1,206 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div#parte-superior {
+    background-color: rgb(255, 255, 255);
+}
+
+div#parte-superior img {
+    width: 100px;
+    border-radius: 0px 0px 50px 50px;
+}
+
+span#burguer { 
+    display: none;
+}
+
+header h1 {
+    background-color: rgba(182, 167, 167, 0.212);
+    border-radius: 10px;
+    display: flex;
+    color: rgba(255, 255, 255, 0.904);
+    font-size: 90px;
+    margin-top: 85px;
+}
+
+header h2 {
+    background-color: rgba(182, 167, 167, 0.212);
+    display: inline-block;
+    border-radius: 10px;
+    font-size: 30px;
+    color: white;
+}
+
+header{
+    background-image: url(https://img.goodfon.com/original/1920x1200/3/cd/eda-picca-pizza-wallpapers.jpg);
+    background-repeat: none;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
+
+#parte-superior nav {
+    text-align: right;
+    border-radius: 10px;
+    position: absolute;
+    top: 5%;
+    left: 35%;
+}
+
+#parte-superior nav a {
+    text-decoration: none;
+    margin-right: 10px;
+    color: black;
+    border-radius: 5px;
+    padding: 10px;
+} 
+
+#parte-superior nav a:hover {
+    color: darkred;
+}
+
+main h2 {
+    font-family: "Vesper Libre", serif;
+    font-weight: bolder;
+    font-size: 40px;
+    background-color: rgba(197, 191, 191, 0.267);
+    text-align: center;
+    padding: 50px;
+}
+
+main p {
+    font-size: large;
+    margin-left: 10px;
+    font-family: "Playfair Display", serif;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+main > section#produtos {
+    padding: 20px;
+}
+
+#mais-produtos {
+    display: flex;
+}
+
+div.pro-outros {
+    margin-top: 20px;
+    margin-left: 50px;
+    background-color: rgba(197, 191, 191, 0.267);
+    display: flex;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+div.pro-outros:hover {
+    transition-duration: 1s;
+    padding: 30px;
+}
+
+img.img-outros {
+   max-width: 600px;
+   margin: auto;
+   flex: auto;
+   border-radius: 20px;
+   height: 100%;
+} 
+
+div.descricao-pro {
+    margin-left: 10px;
+    flex: auto;
+    padding: 20px;
+    background-color: rgb(168, 159, 159);
+    border-radius: 10px;
+}
+
+
+section#sobre {
+    margin-top: 20px;
+    background-color: rgb(180, 71, 71);
+    padding: 20px;
+}
+
+section#sobre > p {
+    font-size: large;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+h2.sobrenos {
+    background-color: rgb(180, 71, 71);
+    margin-top: 20px;
+}
+
+section#sobre > h3 {
+    font-size: 30px;
+    font-family: "Vesper Libre", serif;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+article > h3 {
+    font-family: "Vesper Libre", serif;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+footer#rodape {
+    background-color: rgb(126, 126, 119);
+    padding: 20px;
+}
+
+footer#rodape p {
+    margin-bottom: 20px;
+}
+
+footer#rodape p.dev {
+    text-align: center;
+    margin-top: 20px;
+    font-size: large;
+}
+
+footer#rodape a {
+    text-decoration: none;
+    color: rgb(253, 253, 196);
+}
+
+footer#rodape p.endereco {
+    margin-top: 10px;
+}
+
+div.icon-contatos {
+    float: right;
+}
+
+div.icon-contatos img {
+    margin-left: 10px;
+}
+
+img.icon-instagram {
+    width: 32px;
+    border-radius: 50%;
+}
+
+img.icon-facebook {
+    width: 30px;
+    border-radius: 80%;
+}
+
+img.icon-likedin {
+    width: 30px;
+    border-radius: 50%;
+}
+    
