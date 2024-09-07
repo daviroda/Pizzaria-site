@@ -36,9 +36,8 @@
 @media screen and (max-width:800px) {
 
     header > h1 {
-        width: 345px;
-        font-size: 80px;
-        height: 325px;
+        width: 200px;
+        font-size: 20px;
     }
 
     header > h2 {
@@ -46,11 +45,12 @@
     }
 
     span#burguer {
+        overflow: hidden;
         background-color: rgb(49, 49, 49);
         position: absolute;
-        top: 1%;
-        left: 90%;
-        display:inline-block;
+        top: 5%;
+        left: 80%;
+        display: inline-block;
         border-radius: 10px;
         color: white;
         text-align: center;
@@ -109,7 +109,7 @@
 @media screen and (max-width:500px) {
 
     header > h1 {
-        width: 375px;
+        width: 205px;
         font-size: 70px;
     }
 
@@ -118,10 +118,11 @@
     }
 
     span#burguer {
+        overflow: hidden;
         background-color: rgb(49, 49, 49);
         position: absolute;
-        top: 1%;
-        left: 90%;
+        top: 5%;
+        left: 80%;
         display:inline-block;
         border-radius: 10px;
         color: white;
@@ -142,8 +143,8 @@
 
     nav {
         background-color: white;
-        width: 200px;
-        padding: 5px;
+        width: 150px;
+        padding: 2px;
         display: block;
     }
 
@@ -164,7 +165,7 @@
     img.img-outros {
        width: 300px;
        margin: auto;
-        display: block;
+       display: block;
        border-radius: 20px;
        height: 300px;
     } /*arrumar imagem vinho*/
